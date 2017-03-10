@@ -2,7 +2,7 @@
 
 function init(event) {
 	// initializes the door
-	("minecraft:iron_door");
+	event.block.setBlockModel("minecraft:iron_door");
 	event.block.setOpen(false);
 }
 
